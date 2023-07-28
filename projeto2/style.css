@@ -1,0 +1,186 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    overflow-x: hidden
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    margin-left: 5px;
+    
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+img {
+    max-width: 100%;
+    padding: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-produtos {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.container-produtos > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#id_descricao01 {
+    background-color: #2b3123;
+    width: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+#id_descricao02 {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:left;
+    color: black;
+
+}
+
+.descricao li {
+    color:black;
+    list-style:inside;
+    padding: 10px;
+    text-align:left;
+}
+
+.shiny-button {
+
+    margin: 20px auto;
+    margin-left: 20px;
+    display: block;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.1;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: #f94a2a;
+    background-image: -webkit-linear-gradient(top, #f94e2f 0%, #e87863 48%, #f94a2a 49%, #f94a2a 82%, #fa6145 100%);
+    background-image: -moz-linear-gradient(top, #f94e2f 0%, #e87863 48%, #f94a2a 49%, #f94a2a 82%, #fa6145 100%);
+    background-image: -o-linear-gradient(top, #f94e2f 0%, #e87863 48%, #f94a2a 49%, #f94a2a 82%, #fa6145 100%);
+    background-image: linear-gradient(top, #f94e2f 0%, #e87863 48%, #f94a2a 49%, #f94a2a 82%, #fa6145 100%);
+    border-color: hsl(9, 40%, 57%);
+    -webkit-box-shadow: inset 0 0 1px 1px #fa745c, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 0 1px 1px #fa745c, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 1px 1px #fa745c, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 1px #b82105;
+    -moz-text-shadow: 1px 1px 1px #b82105;
+    -o-text-shadow: 1px 1px 1px #b82105;
+    text-shadow: 1px 1px 1px #b82105;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 12px 30px 12px 30px;
+  }
+  
+  .shiny-button strong {
+    letter-spacing: 1px;
+    font-size: 22px;
+  }
+  
+  .shiny-button:hover {
+    color: #FFFFFF;
+    background-color: #f95739;
+    background-image: -webkit-linear-gradient(top, #f95b3e 0%, #ea8471 48%, #f95739 49%, #f95739 82%, #fa6e54 100%);
+    background-image: -moz-linear-gradient(top, #f95b3e 0%, #ea8471 48%, #f95739 49%, #f95739 82%, #fa6e54 100%);
+    background-image: -o-linear-gradient(top, #f95b3e 0%, #ea8471 48%, #f95739 49%, #f95739 82%, #fa6e54 100%);
+    background-image: linear-gradient(top, #f95b3e 0%, #ea8471 48%, #f95739 49%, #f95739 82%, #fa6e54 100%);
+    border-color: hsl(9, 39%, 60%);
+    -webkit-box-shadow: inset 0 0 1px 1px #fa816b, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 0 1px 1px #fa816b, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 1px 1px #fa816b, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 1px #c62406;
+    -moz-text-shadow: 1px 1px 1px #c62406;
+    -o-text-shadow: 1px 1px 1px #c62406;
+    text-shadow: 1px 1px 1px #c62406;
+  }
+  
+  .shiny-button:active {
+    color: #FFFFFF;
+    background-color: #f93d1b;
+    background-image: -webkit-linear-gradient(top, #f93511 0%, #f94a2a 100%);
+    background-image: -moz-linear-gradient(top, #f93511 0%, #f94a2a 100%);
+    background-image: -o-linear-gradient(top, #f93511 0%, #f94a2a 100%);
+    background-image: linear-gradient(top, #f93511 0%, #f94a2a 100%);
+    padding: 13px 30px 11px 30px;
+  }
+
+  /* Negrito */
+
+  span {
+    font-weight: bold;
+}
+  
+
+
+
+
+
+
+
