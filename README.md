@@ -1,5 +1,5 @@
 # meus-projetos-frontend
-Meus Projetos FrontEnd
+Meus Projetos FrontEnd e Análise de Dados
 
 Estes são meus projetos FrontEnd e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazer seu projeto e ver todo o meu Portfólio, acesse o site: https://antoniuspublicidade.wixsite.com/website e fale comigo pelo email ou whatsapp. 
 
