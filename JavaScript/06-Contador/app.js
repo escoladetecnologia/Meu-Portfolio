@@ -1,21 +1,29 @@
+// set inital value to zero
+let count = 0;
+// select value and buttons
+const value = document.querySelector("#value");
+const btns = document.querySelectorAll(".btn");
 
-let score1 = 0;
-let score2 = 0;
-
-  function incrementScore(team) {
-    if (team === 1) {
-      score1++;
-      document.getElementById("score1").textContent = score1;
-    } else if (team === 2) {
-      score2++;
-      document.getElementById("score2").textContent = score2;
+btns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const styles = e.currentTarget.classList;
+    if (styles.contains("decrease")) {
+      count--;
+    } else if (styles.contains("increase")) {
+      count++;
+    } else {
+      count = 0;
     }
-  }
 
-  function resetScores() {
-    score1 = 0;
-    score2 = 0;
-    document.getElementById("score1").textContent = score1;
-    document.getElementById("score2").textContent = score2;
-  }
-
+    if (count > 0) {
+      value.style.color = "green";
+    }
+    if (count < 0) {
+      value.style.color = "red";
+    }
+    if (count === 0) {
+      value.style.color = "#222";
+    }
+    value.textContent = count;
+  });
+});

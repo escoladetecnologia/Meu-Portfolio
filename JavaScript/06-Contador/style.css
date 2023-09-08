@@ -66,62 +66,6 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
-
-.logo {
-  position: absolute; /* Define a posição absoluta para o logotipo */
-  top: 0; /* Coloca o logotipo no topo da página */
-  left: 0; /* Coloca o logotipo no canto superior esquerdo */
-  padding: 10px; /* Espaçamento ao redor do logotipo, se necessário */
-}
-
-
-
-.container {
-  text-align: center;
-  display: flex;
-  justify-content: space-around; /* Espaço em torno dos times */
-  align-items: center;
-  
-}
-
-
-.team {
-  text-align: center;
-  flex: 1; /* Permite que cada time ocupe o mesmo espaço horizontal */
-  margin-right: 10px; /* Adicione margem direita para aumentar o espaço entre os times */
-}
-
-.x {
-  font-size: 7rem; /* Ajuste o tamanho do "X" conforme desejado */
-  margin: 0 20px; /* Adicione margem para espaçamento ao redor do "X" */
-}
-
-.team img {
-  max-width: 250px; /* Ajuste o tamanho máximo das imagens conforme necessário */
-}
-
-#score1, #score2 {
-  font-size: 2rem; /* Ajuste o tamanho da fonte do placar conforme necessário */
-}
-
-.ad-banner {
-  text-align: center;
-  margin-top: 20px; /* Espaço acima do banner */
-  padding: 10px;
-  background-color: #f0f0f0; /* Cor de fundo do banner */
-  border: 1px solid #ddd; /* Borda ao redor do banner */
-}
-
-.ad-banner a {
-  display: block; /* Para que todo o banner seja clicável */
-}
-
-.ad-banner img {
-  max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do banner */
-}
-
-
-
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
