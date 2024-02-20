@@ -1,4 +1,4 @@
-# meus-projetos-frontend e Análise de Dados
+# meus-projeto: frontend, Análise de Dados, backend em breve (ChatBots, Sites e Apps em Python, Etc)
 Meus Projetos FrontEnd e Análise de Dados
 
 Estes são meus projetos FrontEnd e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazer seu projeto e ver todo o meu Portfólio, acesse o site: 
