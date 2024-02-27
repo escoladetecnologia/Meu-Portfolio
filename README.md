@@ -3,7 +3,7 @@ Meus Projetos FrontEnd e Análise de Dados
 
 Estes são alguns dos projetos FrontEnd e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazermos seu projeto, acesse meu linkedin e se conecte comigo: 
 
-[https://antoniuspublicidade.wixsite.com/website](https://www.linkedin.com/in/claudio-m-antonio/) ou 
+[Linkedin](https://www.linkedin.com/in/claudio-m-antonio/) ou 
 
 ou me contrate pelo email: upcarreiraclaudio@gmail.com, fale com detalhes seu projeto e como pretende pagar pelo projeto, deixe seu Whatsapp para eu entrar em contato.
 
