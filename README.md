@@ -1,9 +1,12 @@
 # meus-projeto: frontend, Análise de Dados, backend em breve (ChatBots, Sites e Apps em Python, Etc)
 Meus Projetos FrontEnd e Análise de Dados
 
-Estes são meus projetos FrontEnd e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazer seu projeto e ver todo o meu Portfólio, acesse o site: 
+Estes são alguns dos projetos FrontEnd e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazermos seu projeto, acesse meu linkedin e se conecte comigo: 
 
-https://antoniuspublicidade.wixsite.com/website e fale comigo pelo email ou whatsapp. 
+[https://antoniuspublicidade.wixsite.com/website](https://www.linkedin.com/in/claudio-m-antonio/) ou 
+
+ou me contrate pelo email: upcarreiraclaudio@gmail.com, fale com detalhes seu projeto e como pretende pagar pelo projeto, deixe seu Whatsapp para eu entrar em contato.
+
 
 Projeto de Análise de Dados e Dashboard: 
 
