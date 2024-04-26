@@ -1,7 +1,7 @@
-# meus-projeto: frontend, Análise de Dados, backend em breve (ChatBots, Sites e Apps em Python, Etc)
-Meus Projetos FrontEnd e Análise de Dados
+# meus-projeto: Back-End, Front-End, Análise de Dados, backend em breve (ChatBots, Sites e Apps em Python, IA, Etc)
+Meus Projetos Front-End e Análise de Dados
 
-Estes são alguns dos projetos FrontEnd e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazermos seu projeto, acesse meu linkedin e se conecte comigo: 
+Estes são alguns dos projetos Front-End e Análise de Dados, fique a vontade para estudar e clonar, caso queira me contratar para fazermos seu projeto, acesse meu linkedin e se conecte comigo: 
 
 [Linkedin](https://www.linkedin.com/in/claudio-m-antonio/) 
 
