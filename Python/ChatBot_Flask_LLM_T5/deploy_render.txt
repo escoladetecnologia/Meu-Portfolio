@@ -1,0 +1,9 @@
+configuration --> new website service
+
+Build and deploy from a Git repository
+
+Build Command: pip install --upgrade pip && pip install -r requirements.txt
+
+Auto-Deploy: Yes
+
+Start Command: gunicorn app:app
