@@ -63,6 +63,7 @@ def exibir_extrato():
 def criar_usuario():
     print("\n### Criação de Novo Usuário ###")
     cpf = input("Informe o CPF do usuário: ")
+    nome = input("Informe o nome do usuário: ")  # Captura o nome do usuário
     endereco = input("Informe o endereço do usuário: ")
     telefone = input("Informe o telefone do usuário: ")
 
@@ -71,8 +72,9 @@ def criar_usuario():
         print("Usuário já cadastrado.")
         return
     
-    usuarios[cpf] = {'endereco': endereco, 'telefone': telefone}
-    print(f"Usuário criado com sucesso:\nCPF: {cpf}\nEndereço: {endereco}\nTelefone: {telefone}")
+    usuarios[cpf] = {'nome': nome, 'endereco': endereco, 'telefone': telefone}
+    print(f"Usuário criado com sucesso:\nCPF: {cpf}\nNome: {nome}\nEndereço: {endereco}\nTelefone: {telefone}")
+
 
 def criar_conta_bancaria():
     print("\n### Abertura de Nova Conta Bancária ###")
@@ -83,8 +85,10 @@ def criar_conta_bancaria():
         print("Usuário não encontrado.")
         return
     
-    nome_usuario = usuarios[cpf]['nome']  # Supondo que o nome do usuário já foi capturado anteriormente
-    agencia = input("Informe o número da agência: ")
+    nome_usuario = usuarios[cpf]['nome']  # Captura o nome do usuário
+
+    # Agência fixa
+    agencia = "0001"
 
     # Gerar número da conta automaticamente
     numero_conta = len(usuarios) * 1000 + 1  # Exemplo simples de geração automática
@@ -93,6 +97,8 @@ def criar_conta_bancaria():
     usuarios[cpf]['conta_bancaria'] = {'agencia': agencia, 'numero_conta': numero_conta}
 
     print(f"Conta bancária criada com sucesso:\nAgência: {agencia}\nConta-Corrente: {numero_conta}\nTitular: {nome_usuario}\nCPF: {cpf}")
+
+
 
 def main():
     while True:
